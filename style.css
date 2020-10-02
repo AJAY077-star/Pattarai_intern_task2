@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: rgb(202, 231, 76);
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+#post {
+  width: 500px;
+  background-color: black;
+}
+
+button {
+  border: 2px solid yellowgreen;
+  border-radius: 12px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-image: linear-gradient(to right, green, yellow);
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, black, black);
+  color: rgb(202, 231, 76);
+}
+
+.btn {
+  border: 2px solid yellowgreen;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background-image: linear-gradient(to right, black, black);
+  color: rgb(202, 231, 76);
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-image: linear-gradient(to right, green, yellow);
+  border: black;
+}
